@@ -1,0 +1,22 @@
+body{
+    background-image:url("https://png.pngtree.com/element_our/png/20180928/beautiful-hologram-water-color-frame-png_119551.jpg");
+}
+
+.btn-primary{
+    font-size: 30px;
+}
+
+canvas{
+    margin-top: 50px;
+    animation-name: shadows;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes shadows{
+    from{box-shadow: 5px 5px 50px rgb(0, 17, 255);}
+    to{box-shadow: 5px 5px 50px rgb(255, 0, 0);}
+}
+
+.btn-warning:hover{
+    background-color: rgb(0, 17, 255);
+}
